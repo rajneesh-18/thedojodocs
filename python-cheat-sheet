@@ -17,3 +17,106 @@ multi-line comment
 name = "Dojo"
 age = 20
 is_student = True
+
+#Data Types
+# Numbers
+x = 10       # int
+y = 3.14     # float
+
+# Strings
+s = "Python"
+s[0]         # 'P' - indexing
+s[1:4]       # 'yth' - slicing
+
+# Boolean
+is_active = True
+
+# List
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+fruits[0]    # 'apple'
+
+# Tuple (immutable)
+coords = (10, 20)
+
+# Set (unique values)
+unique_nums = {1, 2, 3, 3}
+
+# Dictionary
+person = {"name": "Dojo", "age": 20}
+person["name"]  # 'Dojo'
+
+# Operators
+# Arithmetic
+a + b, a - b, a * b, a / b, a % b, a ** b
+
+# Comparison
+a == b, a != b, a > b, a < b
+
+# Logical
+and, or, not
+
+# Cntrol-Flow
+# If-Else
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+# For Loop
+for i in range(5):
+    print(i)
+
+# While Loop
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+# Functions
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Dojo"))
+
+# Lambda function
+square = lambda x: x**2
+print(square(5))  # 25
+
+# Class and Objects
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        return f"Hi, I am {self.name}"
+
+p = Person("Dojo", 20)
+print(p.greet())
+
+# Built-in Functions
+
+len("Python")        # 6
+type(10)             # <class 'int'>
+int("100")           # 100
+str(100)             # '100'
+list((1, 2, 3))      # [1, 2, 3]
+
+# File Handling
+
+# Writing to a file
+with open("file.txt", "w") as f:
+    f.write("Hello, Dojo!")
+
+# Reading from a file
+with open("file.txt", "r") as f:
+    print(f.read())
+
+
+---
+
+If you want, I can make a **more compact “one-page Python Cheat Sheet”** with **just the most important commands and tricks** for quick reference, perfect for TheDojoDocs.  
+
+Do you want me to do that?
+
