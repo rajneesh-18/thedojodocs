@@ -1,0 +1,19 @@
+# 🐍 Python Cheat Sheet
+
+## 1️⃣ Basics
+```python
+# Print statement
+print("Hello, World!")
+
+# Comments
+# This is a single-line comment
+
+"""
+This is a 
+multi-line comment
+"""
+
+# Variables
+name = "Dojo"
+age = 20
+is_student = True
